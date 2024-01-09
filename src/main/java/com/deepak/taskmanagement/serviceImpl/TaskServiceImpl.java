@@ -38,7 +38,7 @@ public class TaskServiceImpl implements TaskService {
 	}
 
 	@Override
-	public BasicResponseMsg getTask(TaskRequest taskRequest) {
+	public BasicResponseMsg getTask() {
 		BasicResponseMsg response = new BasicResponseMsg();
 		try {
 //			Optional<Task> tasks = taskDao.findById(Long.valueOf(taskRequest.getId()));

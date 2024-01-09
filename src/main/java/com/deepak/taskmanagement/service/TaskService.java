@@ -7,7 +7,7 @@ public interface TaskService {
 
 	BasicResponseMsg saveTask(TaskRequest taskRequest);
 
-	BasicResponseMsg getTask(TaskRequest taskRequest);
+	BasicResponseMsg getTask();
 
 	BasicResponseMsg updateTask(TaskRequest taskRequest);
 

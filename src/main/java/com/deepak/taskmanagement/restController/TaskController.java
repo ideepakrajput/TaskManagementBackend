@@ -36,11 +36,11 @@ public class TaskController {
 	}
 
 	@GetMapping("getTask")
-	public ResponseEntity<BasicResponseMsg> getTask(@RequestBody TaskRequest taskRequest) {
+	public ResponseEntity<BasicResponseMsg> getTask() {
 
 		BasicResponseMsg response = new BasicResponseMsg();
 		try {
-			response = taskService.getTask(taskRequest);
+			response = taskService.getTask();
 
 		} catch (Exception e) {
 			e.printStackTrace();
