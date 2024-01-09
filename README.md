@@ -5,4 +5,13 @@
 - Java
 - Hibernate
 - MySQL
-- Data JPA
+
+## Backend is deployed on [railway.app](railway.app)
+
+### [Link](https://taskmanagementbackend-production-5423.up.railway.app)
+
+## How to Use
+- Download the zip file or clone the repo.
+- Make Sure you have started the mySQL server.
+- Change the password by own mySQL password in application-dev.properties.
+- Run the Spring Boot Application.
